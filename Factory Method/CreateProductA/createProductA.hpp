@@ -2,6 +2,7 @@
 #define CREATE_PRODUCT_A_HPP
 
 #include "../Factory/factory.hpp"
+#include "../Product/product.hpp"
 #include "../ProductA/productA.hpp"
 
 class CreateProductA : public Factory

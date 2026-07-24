@@ -3,7 +3,7 @@ using namespace std;
 int main(void)
 {
 
-    Factory *factory = new CreateProductA();
+    Factory *factory = new CreateProductB();
 
     Product *product = factory->createProduct();
 

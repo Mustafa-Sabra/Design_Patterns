@@ -7,7 +7,7 @@
 class ProductB : public Product
 {
 
-    virtual std::string getColor(void);
+    virtual std::string getColor(void) override;
 };
 
 #endif

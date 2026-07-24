@@ -9,7 +9,7 @@ private:
     std::string color;
 
 public:
-    virtual std::string getColor(void);
+    virtual std::string getColor(void) = 0;
 };
 
 #endif
