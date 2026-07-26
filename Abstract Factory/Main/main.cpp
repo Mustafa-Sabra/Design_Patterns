@@ -12,5 +12,6 @@ int main(void)
     delete sofa;
     delete chair;
     delete factory;
+
     return 0;
 }
